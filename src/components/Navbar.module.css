@@ -1,0 +1,48 @@
+nav {
+  display: flex;
+  margin: 0 6%;
+  justify-content: space-around;
+  height: 164px;
+  background-color: thistle;
+}
+.Logo {
+  margin-top: 30px;
+}
+.Logo a {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.Menu {
+  display: flex;
+  margin-top: 2%;
+}
+
+.Menu li {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 9%;
+}
+
+.Menu li a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 21px;
+}
+.Items {
+  display: flex;
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.Items li {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  font-size: 19px;
+}
+
+.Active {
+  font-weight: bold;
+}
+
