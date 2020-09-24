@@ -1,6 +1,10 @@
 import React from 'react';
 import styles from './Navbar.module.css';
 
+import logo from '../images/logo.png';
+import Account from '../images/Account.png';
+import Search from '../images/Search.png';
+
 const Navbar = () => {
   return (
     <>
@@ -34,18 +38,14 @@ const Navbar = () => {
 
         <ul className={styles.Items}>
           <li>
-            <a className={styles.Item}>
-              <i class="fa fa-search"></i>
-            </a>
-            <a href="#">Search</a>
+            <img src={Search} alt="search"></img>
           </li>
           <li>
-            <a>
-              <i class="fa fa-user"></i>
-            </a>
-            <a href="#">Account</a>
+            <img src={Account} alt="account"></img>
           </li>
-          <li className={styles.Cart}></li>
+          <li>
+            <img src={logo} alt="logo"></img>
+          </li>
         </ul>
       </nav>
     </>

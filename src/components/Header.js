@@ -18,7 +18,7 @@ const Header = () => {
         <ul className={styles.Header_links}>
           <li>
             <i className="fa fa-heart"></i>
-            <a href="#">Which List </a>
+            <a href="#"> Which List </a>
           </li>
           <li>
             <a className={styles.Circle}>

@@ -1,0 +1,33 @@
+.Container {
+  height: 860px;
+  background-color: #eeeeee;
+  display: flex;
+  margin: -64px 130px;
+}
+
+.LongChair {
+  position: absolute;
+  margin-top: 61px;
+  right: 130px;
+  height: 799px;
+}
+
+.Desc {
+  display: flex;
+  flex-direction: column;
+  /* position: absolute; */
+  margin-top: 321px;
+  margin-left: 125px;
+}
+
+.Desc .Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 185px;
+  height: 59px;
+  font-weight: bold;
+  cursor: pointer;
+}
