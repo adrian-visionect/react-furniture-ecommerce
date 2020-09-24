@@ -30,4 +30,90 @@
   height: 59px;
   font-weight: bold;
   cursor: pointer;
+  font-family: roboto, arial;
+  position: absolute;
+  margin-top: 200px;
+}
+
+.Desc a:nth-of-type(1) {
+  font-size: 22px;
+  font-family: roboto, arial;
+  font-weight: bold;
+  margin-top: 5px;
+  position: absolute;
+  color: #424242;
+}
+
+.Desc a:nth-of-type(2) {
+  font-size: 18px;
+  font-family: roboto, arial;
+  /* font-weight: bold; */
+  position: absolute;
+  margin-top: 140px;
+  color: #424242;
+}
+
+.Desc span {
+  font-size: 24px;
+  color: black;
+}
+
+.Desc h1 {
+  font-family: playfair display;
+  font-size: 68px;
+  position: absolute;
+  margin-top: 40px;
+  color: #424242;
+}
+
+.SmallSlider {
+  height: 227px;
+  width: 259px;
+  background: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  margin-top: 633px;
+  right: 130px;
+}
+.Chair img {
+  position: absolute;
+  right: 1%;
+  z-index: 100;
+  opacity: 0.5;
+}
+
+.Chair {
+  height: 146px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  margin-left: 31px;
+}
+.Chair a {
+  z-index: 300;
+  font-family: roboto;
+  font-weight: bold;
+}
+
+.Chair a:nth-of-type(1) {
+  font-size: 14px;
+}
+.Chair a:nth-of-type(2) {
+  font-size: 18px;
+}
+
+.Buttons {
+  display: flex;
+}
+
+.ButtonUndo,
+.ButtonRedo {
+  width: 130px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 0.1px solid white;
+  background-color: #424242;
 }
