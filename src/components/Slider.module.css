@@ -3,6 +3,7 @@
   background-color: #eeeeee;
   display: flex;
   margin: -64px 130px;
+  margin-bottom: 0;
 }
 
 .LongChair {
@@ -116,4 +117,5 @@
   color: white;
   border: 0.1px solid white;
   background-color: #424242;
+  cursor: pointer;
 }
