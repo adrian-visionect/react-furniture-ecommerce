@@ -1,0 +1,278 @@
+.ProductsSection {
+  height: 1493px;
+  width: auto;
+  background-color: #eeeeee;
+  /* display: flex; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Container {
+  /* position: absolute; */
+  background-color: #eeeeee;
+  height: 1333px;
+  width: 1413px;
+  margin-top: 30px;
+}
+
+.ProductsNavigation button {
+  height: 41px;
+  background-color: white;
+  border: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-family: roboto, arial;
+  font-size: 14px;
+}
+
+.ProductsNavigation .Active {
+  background-color: black;
+  color: white;
+  width: 116px;
+}
+
+.ProductsNavigation button:nth-of-type(2) {
+  width: 110px;
+}
+
+.ProductsNavigation button:nth-of-type(3) {
+  width: 96px;
+}
+.ProductsNavigation button:nth-of-type(4) {
+  width: 148px;
+}
+
+.ProductsNavigation button:nth-of-type(5) {
+  width: 76px;
+}
+
+.BackNext {
+  margin-top: -35px;
+  margin-left: 1276px;
+  width: 137px;
+  height: 19px;
+  display: flex;
+  /* background-color: blanchedalmond; */
+}
+
+.BackNext button {
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  color: #616161;
+  font-size: 14px;
+  font-family: roboto, arial;
+}
+
+.ViewAll {
+  border: 1px solid #212121;
+  height: 59px;
+  width: 178px;
+  /* position: absolute;
+  bottom: 0; */
+  margin-top: 60px;
+  margin-left: 635px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto, arial;
+  font-size: 16px;
+}
+
+.Products {
+  height: 1103px;
+  margin-top: 66px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Product {
+  background-color: white;
+  height: 530px;
+  width: 330px;
+  /* flex-grow: 1; */
+}
+
+.Item {
+  height: 385px;
+  background-color: #f5f5f5;
+}
+
+.Info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 23px;
+  font-family: roboto, arial;
+}
+.Info a {
+  margin-left: 15px;
+}
+
+.Info a:nth-of-type(1) {
+  font-size: 14px;
+  color: #616161;
+}
+
+.Info a:nth-of-type(2) {
+  font-size: 16px;
+  color: #212121;
+  margin-top: 20px;
+  width: 250px;
+}
+
+.Info a:nth-of-type(3) {
+  font-size: 16px;
+  color: #616161;
+  margin-top: 13px;
+}
+
+.Info img {
+  width: 100%;
+  height: 10px;
+  width: 71px;
+  position: absolute;
+  margin-left: 245px;
+  margin-top: 93px;
+}
+
+.Info .Steal {
+  width: 100%;
+  height: 21px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto, arial;
+  font-size: 16px;
+  width: 42px;
+  position: absolute;
+  margin-left: 275px;
+}
+.TagNew {
+  height: 72px;
+  width: 35px;
+  background-color: black;
+  margin-left: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.TagNew a {
+  color: white;
+  line-height: 32px;
+  letter-spacing: 2px;
+  transform: rotate(-90deg);
+  font-family: roboto, arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.TagHot {
+  height: 72px;
+  width: 35px;
+  background-color: #f5540d;
+  margin-left: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.TagHot a {
+  color: white;
+  line-height: 32px;
+  letter-spacing: 2px;
+  transform: rotate(-90deg);
+  font-family: roboto, arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+.TagSale {
+  height: 72px;
+  width: 35px;
+  background-color: #189e14;
+  margin-left: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.TagSale a {
+  color: white;
+  line-height: 32px;
+  letter-spacing: 2px;
+  transform: rotate(-90deg);
+  font-family: roboto, arial;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.ProductButtons {
+  position: absolute;
+  display: flex;
+  width: 333px;
+  /* margin: 30px; */
+  justify-content: center;
+  align-items: center;
+  /* flex-flow: column; */
+
+  height: 40px;
+  /* width: 100%; */
+  margin-top: 324px;
+}
+
+.AddToCart {
+  border-radius: 50px;
+  padding: 0 10px;
+  height: 40px;
+  width: 137px;
+  margin-right: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto, arial;
+  font-size: 12px;
+  font-weight: bold;
+  box-shadow: -1px 0px 16px 5px rgba(238, 238, 238, 0.83);
+}
+
+.Search {
+  border-radius: 50px;
+  padding: 0 12px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -1px 0px 16px 5px rgba(238, 238, 238, 0.83);
+}
+.Like {
+  border-radius: 50px;
+  padding: 0 12px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -1px 0px 16px 5px rgba(238, 238, 238, 0.83);
+}
+.Switch {
+  border-radius: 50px;
+  padding: 0 12px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -1px 0px 16px 5px rgba(238, 238, 238, 0.83);
+}
