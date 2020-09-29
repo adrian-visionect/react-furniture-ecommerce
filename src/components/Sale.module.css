@@ -1,0 +1,74 @@
+.Sale {
+  height: 516px;
+  background: white;
+  display: flex;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 185px;
+  height: 59px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: roboto, arial;
+  position: absolute;
+  margin-top: 289px;
+}
+
+.Info {
+  display: flex;
+  margin-top: 48px;
+  margin-left: 375px;
+  flex-flow: column;
+  /* margin-top: 0; */
+}
+
+.Info h1 {
+  font-size: 90px;
+  font-family: Playfair Display, arial;
+  color: #333333;
+}
+
+.Info a {
+  position: absolute;
+  margin-top: 195px;
+}
+
+.Chair {
+  position: absolute;
+  margin-top: 87px;
+  margin-left: 975px;
+}
+
+hr {
+  width: 150px;
+  color: #757575;
+  position: absolute;
+  margin-top: 158px;
+  margin-left: 1352px;
+  height: 1px;
+  background-color: #757575;
+}
+
+.Circle {
+  height: 22px;
+  width: 22px;
+  background-color: #757575;
+  border-radius: 50%;
+  margin-top: 148px;
+  margin-left: 1500px;
+  position: absolute;
+}
+
+.Price {
+  position: absolute;
+  margin-top: 148px;
+  margin-left: 1535px;
+  font-family: roboto, arial;
+  font-weight: bold;
+  color: black;
+}

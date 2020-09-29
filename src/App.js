@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Slider from './components/Slider';
 import CoffeeTables from './components/CoffeeTables';
 import FurnitureProducts from './components/FurnitureProducts';
+import Sale from './components/Sale';
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <Slider />
       <CoffeeTables />
       <FurnitureProducts />
+      <Sale />
     </>
   );
 }
